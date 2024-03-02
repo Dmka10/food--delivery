@@ -40,9 +40,6 @@ ul,ol{
     text-decoration-skip-ink: none;
     color: #bbf330;
 
-
-
-    
 }
 
 .container{
@@ -112,6 +109,7 @@ ul,ol{
     background-color: #FFE450;
     
 }
+
 
 /* -------------Section hero-------------- */
 .section-hero {
@@ -205,6 +203,113 @@ ul,ol{
 
 /* -------------/Section hero-------------- */
 
+.backdrop {
+    position: fixed;
+    background: rgba(94, 99, 99, 0.7);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    top: 0;
+    left: 0;
+}
+.is-open {
+    opacity: 1;
+    visibility: visible;
+}
+.modal {
+    position: absolute;
+    border-radius: 30px;
+    height: 449px;
+    width: 458px;
+    background: #ffe550;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.06);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 32px;
+
+}
+
+.close-modal {
+    border-radius: 100%;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.06);
+    fill: #fff;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    border: none;
+
+}
+.close-modal:hover,
+.close-modal:focus {
+    background-color: #7eb101;
+    color: #fff;
+}
+
+.title-form {
+    font-size: 24px;
+    line-height: 1.2;
+    color: #2c2c2c;
+    font-weight: 700;
+    margin-bottom: 20px;
+    display: block;
+    text-align: center;
+}
+
+.form {}
+
+.form-item:not(:last-child) {
+    margin-bottom: 24px;
+}
+
+.item-label {
+    display: block;
+    font-weight: 500;
+    line-height: 1.4;
+    color: #2c2c2c;
+    font-size: 16px;
+    margin-left: 12px;
+    margin-bottom: 2px;
+}
+
+.input-item {
+    border: 1px solid rgba(18, 18, 18, 0.12);
+    width: 100%;
+    height: 48px;
+    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #fff;
+    border-radius: 30px;
+    padding-left: 12px;
+}
+.input-item::placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+    color: #c4c4c4;
+    font-weight: 400;
+    
+}
+.send-btn {
+    border: 2px solid #7eb101;
+    padding: 10px 20px;
+    width: 106px;
+    height: 40px;
+    background: #fff;
+    border-radius: 30px;
+    margin-top: 32px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #2c2c2c;
+    font-weight: 500;
+}
+.send-btn:hover,
+.send-btn:focus {
+    background-color: #bbf330;;
+}
 
 
 

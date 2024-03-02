@@ -1,0 +1,23 @@
+.favorites-title {
+  font-weight: 700;
+  font-size: 42px;
+  text-align: center;
+  color: #2c2c2c;
+}
+
+.favorite-descr {
+  font-size: 16px;
+  text-align: center;
+  color: #2c2c2c;
+}
+
+.favorites-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.favorites-link {
+  border: 16px solid #ffe550;
+  border-radius: 197px;
+}
