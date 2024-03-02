@@ -12,6 +12,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   <title>Document</title>
   <link rel="stylesheet" href="./styles/styles.css">
+<link rel="stylesheet" href="./styles/styles-hr.css">
 
     <link rel="stylesheet" href="./styles/favorite-styles.css">
 
@@ -35,21 +36,44 @@
 
       <button type="button" class="button-header">Order now</button>
     </div>
-</header>
 
+</header>
     <main>
       <!--hero - Nazar-->
-      <section>
-        <h1>Enjoy Your Favorite Food From Anywhere</h1>
-        <p>
-          With just a few clicks, you can have your favorite meals delivered
-          straight to your doorstep, no matter where you are. Order now and
-          enjoy a hassle-free and delicious meal from the comfort of your own
-          home.
-        </p>
-        <button>Order now</button>
-        <img src="./images/FotoMeatAndBread.jpg" alt="FotoMeatAndBread" />
+      <section class="section-hero">
+        <div class="container hero-container">
+          <div class="hero-content">
+            <h1 class="title-hero">Enjoy Your Favorite Food From Anywhere</h1>
+            <p class="text-hero">
+              With just a few clicks, you can have your favorite meals delivered
+              straight to your doorstep, no matter where you are. Order now and
+              enjoy a hassle-free and delicious meal from the comfort of your own
+              home.
+            </p>
+            <button class="hero-btn" type="button">Order now</button>
+          </div>
+          <div class="hero-img">
+            <img src="./images/FotoMeatAndBread.png" alt="FotoMeatAndBread" width="528" height="528" />
+            <svg class="vector-right" width="17" height="30">
+              <use href="./images/icons.svg#icon-vector"></use>
+            </svg>
+            <svg class="vector-left" width="17" height="30">
+              <use href="./images/icons.svg#icon-vector-1"></use>
+            </svg>
+            <svg class="ellipse" width="580" height="580">
+              <use href="./images/icons.svg#icon-ellipse"></use>
+            </svg>
+          </div>
+        </div>
       </section>
+
+      
+      <!--Offerings - Olexandr-->
+      <!--Favorites - Valeria -->
+      <!--customers - Ігор-->
+      <!--substribe - Ірина-->
+      <!--Footer - Віталій-->
+
 
 <!-- Section offerings -->
 
@@ -125,6 +149,7 @@
         <label class="form-label" for="user-email"></label>
         <input type="email" class="form-input" id="user-email" name="Email користувача" />
     </footer>
+
     <div class="backdrop is-open">
       <div class="modal"><button class="close-modal" type="button">x</button>
         <p class="title-form">Order Form</p>

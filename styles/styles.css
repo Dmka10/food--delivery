@@ -40,9 +40,6 @@ ul,ol{
     text-decoration-skip-ink: none;
     color: #bbf330;
 
-
-
-    
 }
 
 .container{
@@ -53,9 +50,9 @@ ul,ol{
     margin-right: auto;
 }
 
-.section-header {
+/* .section-header {
 
-}
+} */
 
 .header-container{
     display: flex;
@@ -75,9 +72,9 @@ ul,ol{
     
 }
 
-.home-style {
+/* .home-style {
 
-}
+} */
 
 .navigation-link {
     font-weight: 400;
@@ -112,6 +109,99 @@ ul,ol{
     background-color: #FFE450;
     
 }
+
+
+/* -------------Section hero-------------- */
+.section-hero {
+    max-width: 1248px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-container {
+    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hero-content {
+    max-width: 511px;
+    min-height: 213px;
+    display: block;
+    margin-top: 159px;
+}
+
+.title-hero {
+    font-family: "Roboto", sans-serif;
+    font-size: 48px;
+    line-height: 1.2;
+    color: #2c2c2c;
+    font-weight: 700;
+    margin-bottom: 28px;
+}
+
+.text-hero {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2c2c2c;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.hero-btn {
+    border-radius: 30px;
+    border: none;
+    min-width: 98px;
+    height: 32px;
+    padding: 6px 17px;
+    background: #bbf330;
+    
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    line-height: 1.5;
+    text-align: right;
+    color: #2c2c2c;
+    font-weight: 500;
+}
+
+.hero-img {
+    display: block;
+    border-radius: 456px;
+    height: 608px;
+    width: 608px;
+    margin-left: 129px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vector-right {
+    position: absolute;
+    justify-content: right;
+    z-index: 1;
+    left: 95%;
+    border-radius: 8px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.06);
+    fill: #2c2c2c;
+}
+
+.vector-left {
+    position: absolute;
+    right: 95%;
+    border-radius: 8px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.06);
+    fill: #2c2c2c;
+}
+
+.ellipse {
+    position: absolute;
+    display: flex;
+    z-index: -1;
+}
+
+
+/* -------------/Section hero-------------- */
 
 .backdrop {
     position: fixed;
